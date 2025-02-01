@@ -1,0 +1,10 @@
+[project]
+name = "MisterAgent - Voice"
+version = "0.1.0"
+description = "Voice plugin for Mister Agent."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sounddevice>=0.5.0",
+    "pvporcupine>=1.0.0",
+]
